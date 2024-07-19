@@ -20,6 +20,10 @@ spec:
             cpu: "200m"
           limits:
             cpu: "500m"
+          requests:
+            memory: "1Gi"
+          limits:
+            memory: "4Gi"
 ---
 apiVersion: v1
 kind: Service
